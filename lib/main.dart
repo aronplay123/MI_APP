@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/scan_screen.dart';
+import 'screens/camera_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -80,7 +80,7 @@ class HomeScreen extends StatelessWidget {
                   onPressed: () {
                     // Navegar a la pantalla de escaneo
                     Navigator.of(context).push(
-                      MaterialPageRoute(builder: (_) => const ScanScreen()),
+                      MaterialPageRoute(builder: (_) => const CameraScreen()),
                     );
                   },
                   child: const Icon(
